@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+create_migration = "alembic revision"
+apply_migrations = "alembic upgrade head"
+format = "autopep8 -a -a --in-place --recursive --ignore=E225 --exclude postgres,pgadmin,demo_data ."
+
+[packages]
+sqlalchemy = "*"
+opcua = "*"
+pillow = "*"
+alembic = "*"
+pycodestyle = "*"
+autopep8 = "1.7.1"
+kafka-python = "*"
+kafka-python3 = "*"
+confluent-kafka = "*"
+pyyaml = "*"
+faust-streaming = "*"
+zstd = "*"
+zstandard = "*"
+dash = "*"
+plotly = "*"
+pandas = "*"
+ultralytics = "*"
+scikit-learn = "*"
+psycopg2 = "*"
+opencv-python = "*"
+tensorflow ="*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

@@ -1,0 +1,12 @@
+.DS_Store
+postgres/pg_stat_tmp/**
+Kafka/zk-single-kafka-multiple/**
+zk-single-kafka-multiple/**
+Pipfile.lock
+*.jpg
+*.jpeg
+*.pt
+*.yml
+*.pyc
+*.png
+*.ipynb

@@ -1,0 +1,14 @@
+{
+  "timestamp": 1678380030.6959295,
+  "Humidity": 29,
+  "Pressure": 99355,
+  "AccelX": 34,
+  "AccelY": 34,
+  "AccelZ": -1004,
+  "GyroX": 61,
+  "GyroY": 366,
+  "GyroZ": -61,
+  "T": 21.421,
+  "Noise": 0.001379,
+  "Light": 60480
+}
