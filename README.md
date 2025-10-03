@@ -35,14 +35,14 @@ The primary goals of this project include:
 ```
 ┌─────────────────┐    ┌──────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   CNC Machine   │    │  OPC UA      │    │  Apache Kafka   │    │  AI Processing  │
-│   Sensors       │───▶│  Server      │───▶│  Cluster        │───▶│  & Analytics    │
+│   Sensors       │───▶│  Server      │───▶│  Cluster        │───▶│  & Analytics  │
 │                 │    │              │    │                 │    │                 │
 └─────────────────┘    └──────────────┘    └─────────────────┘    └─────────────────┘
-                                                    │
+                                                                           │
                                                     ▼
-┌─────────────────┐    ┌──────────────┐    ┌─────────────────┐
+┌─────────────────┐    ┌──────────────┐    ┌─────────────────┐             │
 │   Web Dashboard │    │  TimescaleDB │    │  Faust Stream   │
-│   (Plotly/Dash) │◀───│  PostgreSQL  │◀───│  Processing     │
+│   (Plotly/Dash) │◀───│  PostgreSQL  │◀───│  Processing    │ ◀──────    │ 
 │                 │    │              │    │                 │
 └─────────────────┘    └──────────────┘    └─────────────────┘
 ```
@@ -227,28 +227,7 @@ python test_func_database.py
 python test_orm.py
 ```
 
-## 📚 Documentation
 
-Detailed documentation available in the `documentation/` folder:
-- [Image Processing Guide](documentation/IMAGES.md)
-- [PostgreSQL Admin Guide](documentation/PG_ADMIN.md)
-- [Docker Setup Guide](documentation/RUN_DOCKER.md)
-
-## 🛡️ Security Considerations
-
-- OPC UA server runs on localhost by default
-- Database credentials should be changed in production
-- Kafka clusters should be secured with SSL/SASL
-- Consider network segmentation for industrial environments
-
-## 🔮 Future Enhancements
-
-- [ ] Edge computing capabilities
-- [ ] Advanced ML model deployment
-- [ ] Enhanced security features
-- [ ] Mobile dashboard application
-- [ ] Integration with more industrial protocols
-- [ ] Predictive maintenance algorithms
 
 ## 🤝 Contributing
 
@@ -261,21 +240,6 @@ Detailed documentation available in the `documentation/` folder:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Apache Kafka community
-- OPC Foundation
-- TimescaleDB team
-- PyTorch and TensorFlow communities
-- All contributors to the open-source libraries used
-
-## 📞 Support
-
-For support and questions:
-- Create an issue in the GitHub repository
-- Check the documentation folder for guides
-- Review the demo data and examples
 
 ## 🔗 Relevant Documentation
 
