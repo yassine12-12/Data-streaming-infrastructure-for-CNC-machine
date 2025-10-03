@@ -94,27 +94,6 @@ The primary goals of this project include:
 - **OpenCV**: Computer vision library
 - **Pillow (PIL)**: Image processing library
 
-## 📁 Project Structure
-
-```
-├── 📁 database/              # Database models and migrations
-│   ├── entities/             # SQLAlchemy entity models
-│   └── versions/             # Alembic migration versions
-├── 📁 OPCUA/                 # OPC UA server implementation
-├── 📁 Kafka_Test/            # Kafka producers and consumers
-├── 📁 Faust/                 # Faust stream processing apps
-├── 📁 FaustAI/               # AI-enhanced stream processing
-├── 📁 demo_data/             # Sample data for testing
-│   ├── image_cnc/            # Sample CNC machine images
-│   └── time_series/          # Sample sensor data
-├── 📁 image_table_usage_examples/  # Database usage examples
-├── 📁 documentation/         # Project documentation
-├── 🔧 docker-compose.yml     # Docker services configuration
-├── 🔧 config.yml             # Application configuration
-├── 🔧 Pipfile               # Python dependencies
-├── 🐍 lstm_autoencoder.py    # LSTM model for anomaly detection
-├── 🐍 ui_plotly.py          # Web dashboard application
-└── 🐍 func_database.py      # Database utility functions
 ```
 
 ## 🚀 Quick Start
@@ -228,14 +207,6 @@ python test_orm.py
 ```
 
 
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
